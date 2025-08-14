@@ -1,0 +1,57 @@
+.categoryCard {
+  width: 30%;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .cardIcons {
+    float: right;
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+    .eyeIcon {
+      position: absolute;
+      top: 0px;
+      left: -28px;
+    }
+    .deleteIcon {
+      position: absolute;
+      top: -2px;
+      left: 20px;
+    }
+  }
+
+  .categoryName {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 5px 0 0;
+
+    .status {
+      font-size: 10px;
+      font-weight: 400;
+      padding: 8px;
+      border-radius: 3px;
+
+      &.red {
+        background-color: rgb(255, 242, 228);
+        color: rgb(255, 154, 39);
+      }
+
+      &.green {
+        color: rgb(18, 212, 25);
+        background-color: rgb(234, 255, 236);
+      }
+    }
+  }
+
+  .categoryPrecisionType,
+  .categoryGroup {
+    font-size: 14px;
+    color: rgb(109, 105, 118);
+  }
+}
