@@ -1,5 +1,5 @@
 import type { ITagCategory  } from "../types/Interfaces";
-import  StyleCard  from "./CategoryCard.module.scss";
+import  StyleCard  from "./categoryCard.module.scss";
 import  editIcon from '../assets/Mask group 8.svg'
 import deleteIcon from "../assets/Trash.svg";
 import eyeIcon from "../assets/eye-black.svg"
